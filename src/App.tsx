@@ -1,9 +1,8 @@
 import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
 import type { Session } from "@supabase/supabase-js";
 import {
-  Activity, ArrowDownRight, ArrowUpRight, Boxes, CalendarDays, CheckCircle2,
-  ChevronDown, CircleHelp, ClipboardList, Leaf, LogOut, MapPin, Menu,
-  Plus, RefreshCw, Search, Sun, Users, X, Zap
+  Activity, Boxes, CalendarDays, CheckCircle2, CircleHelp, ClipboardList,
+  Leaf, LogOut, MapPin, Menu, Plus, RefreshCw, Search, Sun, Users, X
 } from "lucide-react";
 import { z } from "zod";
 import { supabase } from "./lib/supabase";
