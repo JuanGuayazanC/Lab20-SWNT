@@ -14,3 +14,9 @@ body { margin: 0; min-width: 320px; min-height: 100vh; }
 button, input, select { font: inherit; }
 button { cursor: pointer; }
 ::selection { background: #d8eadb; }
+
+@layer components {
+  .field {
+    @apply w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-forest-950 outline-none transition placeholder:text-slate-400 focus:border-leaf-500 focus:ring-4 focus:ring-emerald-50;
+  }
+}
