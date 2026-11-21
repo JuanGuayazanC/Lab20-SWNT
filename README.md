@@ -18,7 +18,7 @@ Aplicación web interna para gestionar proyectos de instalación de paneles sola
 ```bash
 npm install
 cp .env.example .env
-# Completa VITE_SUPABASE_URL y VITE_SUPABASE_ANON_KEY
+# Completa VITE_SUPABASE_URL y VITE_SUPABASE_PUBLISHABLE_KEY (o la clave heredada VITE_SUPABASE_ANON_KEY)
 npm run dev
 ```
 
